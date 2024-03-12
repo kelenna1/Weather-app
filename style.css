@@ -92,4 +92,33 @@ body{
     display: none;
 }
 
+@media only screen and (max-width: 768px) {
+    /* Mobile-specific styles */
+    .card {
+        width: 100%; /* Full width on mobile */
+        padding: 20px;
+        margin: 50px auto 0;
+    }
+    .search input {
+        font-size: 14px;
+        margin-right: 10px;
+    }
+    .weather h1 {
+        font-size: 50px;
+    }
+    .weather h2 {
+        font-size: 30px;
+    }
+    .details {
+        margin-top: 30px;
+    }
+    .col img {
+        width: 30px;
+    }
+    .Humidity {
+        font-size: 20px;
+        margin-top: -4px;
+    }
+}
+
 
