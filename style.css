@@ -92,33 +92,33 @@ body{
     display: none;
 }
 
-@media only screen and (max-width: 768px) {
-    /* Mobile-specific styles */
+@media screen and (max-width: 768px) {
     .card {
-        width: 100%; /* Full width on mobile */
-        padding: 20px;
-        margin: 50px auto 0;
+        width: 100%;
+        padding: 30px 20px;
+        border-radius: 0;
     }
+    
+    .search {
+        flex-direction: column;
+    }
+    
     .search input {
-        font-size: 14px;
-        margin-right: 10px;
+        margin-right: 0;
+        margin-bottom: 10px;
     }
-    .weather h1 {
-        font-size: 50px;
+    
+    .search button {
+        width: 100%;
+        margin-right: 0;
     }
-    .weather h2 {
-        font-size: 30px;
-    }
+    
     .details {
         margin-top: 30px;
     }
-    .col img {
-        width: 30px;
-    }
-    .Humidity {
-        font-size: 20px;
-        margin-top: -4px;
+    
+    .col {
+        margin-right: 0;
+        margin-bottom: 20px;
     }
 }
-
-
